@@ -22,7 +22,7 @@ Team Arcade is a mini team name card styled like a retro game's “Pick your her
 
 - **Name** · Sammi
 - **Area of study** · Design and UI/UX
-- **Image** · `sammi.png`, a Powerpuff Girls inspired superhero based on Sammi's photo and styled to match Victoria's hero.
+- **Image** · `sammi.png`, a Powerpuff Girls inspired superhero based on Sammi's photo and styled to match Victoria's hero. The page also embeds it so the portrait appears in previews that cannot load separate project files.
 - **Fun fact** · “I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!”
 
 ## Add Player 3

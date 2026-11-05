@@ -12,7 +12,7 @@ const players = [
   {
     name: "Sammi",
     major: "Design and UI/UX",
-    image: "sammi.png",
+    image: document.getElementById("sammi-avatar").getAttribute("src"),
     alt: "Sammi as a flying cartoon superhero with wavy black hair, star details, and a red outfit",
     fact: "I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!",
   },
