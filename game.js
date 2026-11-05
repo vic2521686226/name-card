@@ -20,7 +20,7 @@ const players = [
     name: "June",
     major: "Instructional Design and Psychology",
     image: document.getElementById("june-avatar").getAttribute("src"),
-    alt: "June as a flying cartoon superhero with short brown hair, glasses, and a mint jacket",
+    alt: "June as a flying cartoon superhero with brown hair, amber glasses, a color-block sweatshirt, and blue jeans",
     fact: "I sing anytime, anywhere—at any volume!",
   },
 ];

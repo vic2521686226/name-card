@@ -29,7 +29,7 @@ Team Arcade is a mini team name card styled like a retro game's “Pick your her
 
 - **Name** · June
 - **Area of study** · Instructional Design and Psychology
-- **Image** · `june-team.png`, based on June's latest photo. Matches Victoria and Sammi's diagonal flying pose, raised knee, rounded hands, oversized eyes, and bold outlines while keeping June's short brown hair, glasses, and mint jacket. Embedded in the page for standalone previews.
+- **Image** · `june-team-v4.png`, based on June's latest photo. Matches Victoria and Sammi's diagonal flying pose, raised knee, rounded hands, oversized eyes, and bold outlines while keeping June's short brown hair, amber tortoiseshell glasses, navy-gray-green sweatshirt, and blue denim jeans. Embedded in the page for standalone previews.
 - **Fun fact** · “I sing anytime, anywhere—at any volume!” (我会随时随地大小唱)
 
-All three slots are filled. Edit the corresponding profile in `game.js` to update card text. Earlier June avatar drafts are preserved as `june.png` and `june-v2.png`; the page uses `june-team.png`.
+All three slots are filled. Edit the corresponding profile in `game.js` to update card text. Earlier June avatar drafts are preserved as `june.png` and `june-v2.png`; the page uses `june-team-v4.png`.
