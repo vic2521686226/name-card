@@ -25,20 +25,11 @@ Team Arcade is a mini team name card styled like a retro game's “Pick your her
 - **Image** · `sammi.png`, a Powerpuff Girls inspired superhero based on Sammi's photo and styled to match Victoria's hero. The page also embeds it so the portrait appears in previews that cannot load separate project files.
 - **Fun fact** · “I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!”
 
-## Add Player 3
+## Player 3 · June
 
-The third slot is open. Add your image to the project folder, then replace the remaining `null` in the `players` array in `game.js` with an entry like this:
+- **Name** · June
+- **Area of study** · Instructional Design and Psychology
+- **Image** · `june-team.png`, based on June's latest photo. Matches Victoria and Sammi's diagonal flying pose, raised knee, rounded hands, oversized eyes, and bold outlines while keeping June's short brown hair, glasses, and mint jacket. Embedded in the page for standalone previews.
+- **Fun fact** · “I sing anytime, anywhere—at any volume!” (我会随时随地大小唱)
 
-```js
-{
-  name: "Name shown on the roster",
-  fullName: "Full name",
-  major: "Major or area of study",
-  focus: "Optional concentration",
-  image: "your-hero.png",
-  alt: "A short description of your image",
-  fact: "A fun fact about you!",
-}
-```
-
-The third entry is Player 3. Use English for the card text and match the image filename exactly. Reload the page, select your slot, and click **Reveal fun fact** to check your card. The roster labels and player count update automatically.
+All three slots are filled. Edit the corresponding profile in `game.js` to update card text. Earlier June avatar drafts are preserved as `june.png` and `june-v2.png`; the page uses `june-team.png`.

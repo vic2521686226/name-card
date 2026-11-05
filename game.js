@@ -1,4 +1,4 @@
-// Replace the remaining null entry with a teammate's profile when they join.
+// Team profiles in roster order.
 const players = [
   {
     name: "Victoria",
@@ -16,7 +16,13 @@ const players = [
     alt: "Sammi as a flying cartoon superhero with wavy black hair, star details, and a red outfit",
     fact: "I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!",
   },
-  null,
+  {
+    name: "June",
+    major: "Instructional Design and Psychology",
+    image: document.getElementById("june-avatar").getAttribute("src"),
+    alt: "June as a flying cartoon superhero with short brown hair, glasses, and a mint jacket",
+    fact: "I sing anytime, anywhere—at any volume!",
+  },
 ];
 
 const $ = (id) => document.getElementById(id);
