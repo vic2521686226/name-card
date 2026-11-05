@@ -18,9 +18,16 @@ Team Arcade is a mini team name card styled like a retro game's “Pick your her
 - **Image** · A Powerpuff Girls inspired superhero based on Victoria's photo. The original generated asset is `victoria.png`, and the page embeds it so it can load without a separate image request.
 - **Fun fact** · “I love dogs! My handle on every platform is ‘Responsible Dog Owner.’” The handle is an English translation of 文明养犬.
 
-## Add Player 2 or Player 3
+## Player 2 · Sammi
 
-Both slots start empty so teammates can fill them in. Add your image to the project folder, then replace your slot's `null` in the `players` array in `game.js` with an entry like this:
+- **Name** · Sammi
+- **Area of study** · Design and UI/UX
+- **Image** · `sammi.png`, a Powerpuff Girls inspired superhero based on Sammi's photo and styled to match Victoria's hero.
+- **Fun fact** · “I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!”
+
+## Add Player 3
+
+The third slot is open. Add your image to the project folder, then replace the remaining `null` in the `players` array in `game.js` with an entry like this:
 
 ```js
 {
@@ -34,4 +41,4 @@ Both slots start empty so teammates can fill them in. Add your image to the proj
 }
 ```
 
-The second entry is Player 2 and the third entry is Player 3. Use English for the card text and match the image filename exactly. Reload the page, select your slot, and click **Reveal fun fact** to check your card. The roster labels and player count update automatically.
+The third entry is Player 3. Use English for the card text and match the image filename exactly. Reload the page, select your slot, and click **Reveal fun fact** to check your card. The roster labels and player count update automatically.

@@ -1,4 +1,4 @@
-// Replace either null entry with a teammate's profile when they join.
+// Replace the remaining null entry with a teammate's profile when they join.
 const players = [
   {
     name: "Victoria",
@@ -9,7 +9,13 @@ const players = [
     alt: "Victoria as a flying cartoon superhero",
     fact: "I love dogs! My handle on every platform is “Responsible Dog Owner.”",
   },
-  null,
+  {
+    name: "Sammi",
+    major: "Design and UI/UX",
+    image: "sammi.png",
+    alt: "Sammi as a flying cartoon superhero with wavy black hair, star details, and a red outfit",
+    fact: "I'm allergic to mangoes, so when I order mango sticky rice at a Thai restaurant, I have to ask for it without the mango!",
+  },
   null,
 ];
 
@@ -40,6 +46,7 @@ function select(index) {
   if (player) {
     $("major").textContent = player.major;
     $("focus").textContent = player.focus ?? "";
+    $("focus").hidden = !player.focus;
     if (player.image) $("avatar").src = player.image;
     $("avatar").alt = player.alt ?? `${player.name}'s avatar`;
     $("fact").textContent = player.fact ?? "";
